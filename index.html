@@ -21,7 +21,7 @@
     <meta name="msapplication-TileColor" content="#3372DF">
 
     <link rel="shortcut icon" href="images/favicon.png">
-    
+
     <title>Demo App</title>
     <!-- systemJS loader and config -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -29,14 +29,13 @@
     <script src="/jspm_packages/system.js"></script>
     <script src="/config.js"></script>
 
-    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-
 </head>
 <body>
     <!-- our angular2 component -->
     <app/>
     <!-- import and run our app -->
     <script>
+      System.import("/node_modules/material-design-lite/material.min.js");
       System.import("zone.js");
       System.import('/app/main');
     </script>

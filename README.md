@@ -16,5 +16,5 @@ TypeScript ยังไม่สามารถโหลด module จาก jsp
 ให้ติดตั้ง crypto ด้วย jspm
 
 ```
-spm install crypto
+jspm install crypto
 ```
