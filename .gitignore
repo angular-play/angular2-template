@@ -3,3 +3,4 @@ app/**/*.js
 *.zip
 jspm_packages
 node_modules
+tools

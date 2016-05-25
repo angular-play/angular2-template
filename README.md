@@ -1,11 +1,13 @@
 
 ## Angular Template
 
-- angular2 + router
-- jspm
-- material design lite
+- Angular2 + Router
+- JSPM
+- Material Design Lite
 
 ![](screen/template.png)
+
+## Issue
 
 ### moduleResolution = "node"
 
